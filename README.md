@@ -20,7 +20,37 @@ Creating a new project from the Xcode default template is very painful. We need 
 - L10n-swift
 - Firebase
 
-## Wiki
+
+## Directory layout 🗂️
+|- networks/
+|- services/
+|- feature/
+    |- dashboard/
+        |- widget/
+        |- controller
+        |- dashboard_screen.dart
+    |- home/
+    |- login/
+|- UI/
+  |- button/
+  |- image/
+  |- view/
+|- AppDelegate.swift
+|- SceneDelegate.swift
+
+## Features 🍌
+* [ ] Localization
+* [x] Theme
+* [x] Navigation Stack
+* [x] State Management - ViewModel
+* [x] Login Flow
+    * [x] Login Flow - UI
+    * [ ] Login/Signup With Email
+    * [ ] Login With Google
+    * [ ] Login With Facebook
+    * [ ] Login With Apple
+
+## Digging Deeper 🚀
 Checkout [wiki](https://github.com/GoldenOwlAsia/mobile-ios-swift-template/wiki) for more info
 
 ## Screenshot

@@ -22,21 +22,21 @@ Creating a new project from the Xcode default template is very painful. We need 
 
 
 ## Directory layout 🗂️
-|- networks/
-|- services/
-|- feature/
-    |- dashboard/
-        |- widget/
-        |- controller
-        |- dashboard_screen.dart
-    |- home/
-    |- login/
-|- UI/
-  |- button/
-  |- image/
-  |- view/
-|- AppDelegate.swift
-|- SceneDelegate.swift
+    |- networks/
+    |- services/
+    |- feature/
+        |- dashboard/
+            |- widget/
+            |- controller
+            |- dashboard_screen.dart
+        |- home/
+        |- login/
+    |- UI/
+      |- button/
+      |- image/
+      |- view/
+    |- AppDelegate.swift
+    |- SceneDelegate.swift
 
 ## Features 🍌
 * [ ] Localization

@@ -25,11 +25,10 @@ Creating a new project from the Xcode default template is very painful. We need 
     |- networks/
     |- services/
     |- feature/
-        |- dashboard/
-            |- widget/
-            |- controller
-            |- dashboard_screen.dart
         |- home/
+            |- ui/
+            |- view
+                |- HomeViewController.swift
         |- login/
     |- UI/
       |- button/
@@ -40,15 +39,21 @@ Creating a new project from the Xcode default template is very painful. We need 
 
 ## Features 🍌
 * [ ] Localization
-* [x] Theme
+* [ ] Theme
 * [x] Navigation Stack
 * [x] State Management - ViewModel
 * [x] Login Flow
-    * [x] Login Flow - UI
-    * [ ] Login/Signup With Email
-    * [ ] Login With Google
-    * [ ] Login With Facebook
-    * [ ] Login With Apple
+    * [x] Login Flow UI 
+        * [ ] Update ui to more Complete
+    * Intergation Mock API and view model
+        * [ ] Login/Signup With Email
+        * [ ] Login With Google
+        * [ ] Login With Facebook (optional)
+        * [ ] Login With Apple
+    * User state management
+        * [ ] Create dashboard screen with bottom navigation bar
+        * [ ] Profile screen - show login/no-login state
+
 
 ## Digging Deeper 🚀
 Checkout [wiki](https://github.com/GoldenOwlAsia/mobile-ios-swift-template/wiki) for more info
